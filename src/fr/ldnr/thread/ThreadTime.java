@@ -1,3 +1,9 @@
+/**
+ * Programme utilisant un processus permettant de faire fonctionner une horloge.
+ * 
+ * @author Le-porcherS - 2023-2-23
+ * 
+ */
 package fr.ldnr.thread;
 
 import java.text.DateFormat;
@@ -25,7 +31,7 @@ public class ThreadTime {
 
     @Override
     public void run() {
-    	while(true) {
+    	 
 	      try {
 	        Thread.sleep(delai);
 	        System.out.println("-");
@@ -35,4 +41,4 @@ public class ThreadTime {
     	}
     }
   }
-}
+
